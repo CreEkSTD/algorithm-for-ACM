@@ -8,24 +8,16 @@ https://leetcode.cn/
 
 
 
-**有一种来显示消耗时间的算法，我在练习过程中会加入，来实现一个清晰的可视化效果**
+**有一种来减少输入输出时间消耗的算法，我在练习过程中会加入，来实现一个清晰的可视化效果**
 
 ```c++
 #include <iostream>
-#include <ctime>
 using namespace std;
 
 int main()
 {
   std::ios::sync_with_stdio(0), cin.tie(0), cout.tie(0);
-  // 获取开始时间
-  clock_t start = clock();
-  // 获取结束时间
-  clock_t end = clock();
-  // 计算执行时间（以毫秒为单位）
-  double execution_time = (double)(end - start) / CLOCKS_PER_SEC * 1000;
-  
-  cout << "Execution time: " << execution_time << " ms" << endl;
+
   
   return 0;
 }
